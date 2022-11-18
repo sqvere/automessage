@@ -1,0 +1,40 @@
+{
+    "token": "token",
+    "id": 6969696,
+    "messages": [
+        {
+            "title": "Обычное сообщение",
+            "content": "Это пример обычного сообщения"
+        },
+        {
+            "title": "Форматирование текста",
+            "content": "*Толстый текст*",
+            "parse_mode": "Markdown"
+        },
+        {
+            "title": "Сообщение с кнопками",
+            "content": "Прикол тут есть кнопки",
+            "buttons": [
+                {
+                    "text": "Кнопка юрл",
+                    "url": "https://qiwi.com/n/AWSAWS"
+                }
+            ]
+        },
+        {
+            "title": "Пример использования",
+            "content": "*Это бот от auto*\n\n[Auto на lzt](https://zelenka.guru/auto)\n[Кинуть донат](https://qiwi.com/n/AWSAWS)",
+            "parse_mode": "Markdown",
+            "buttons": [
+                {
+                    "text": "Открыть профиль",
+                    "url": "https://zelenka.guru/auto"
+                },
+                {
+                    "text": "Перейти к оплате",
+                    "url": "https://qiwi.com/n/AWSAWS"
+                }
+            ]
+        }
+    ]
+}
